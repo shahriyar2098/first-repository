@@ -1,0 +1,25 @@
+.iam {
+    text-align: center;
+}
+
+#name {
+    text-align: center;
+    font-size: 60px;
+    color: green;
+}
+
+#design {
+    background-color: blanchedalmond;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 5px;
+}
