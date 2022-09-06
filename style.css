@@ -1,5 +1,14 @@
-.iam {
+body {
+    margin: 0;
+}
+
+#welcome {
     text-align: center;
+    font-size: 200px;
+    font-family: fantasy;
+    background-image: url(a.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #name {
@@ -18,8 +27,8 @@
 footer {
     text-align: center;
     color: white;
-    background-color: black;
-    margin: 10px;
-    border-radius: 15px;
-    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(17, 16, 16);
+    padding-top: 50px;
+    padding-bottom: 5px;
 }
