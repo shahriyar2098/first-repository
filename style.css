@@ -1,34 +1,51 @@
 body {
     margin: 0;
+    font-family: 'Patua One', cursive;
 }
 
 #welcome {
+    font-size: 100px;
     text-align: center;
-    font-size: 200px;
-    font-family: fantasy;
-    background-image: url(a.jfif);
+    background-image: url(bg.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#iam {
+    text-align: center;
+    font-size: 50px;
 }
 
 #name {
     text-align: center;
-    font-size: 60px;
-    color: green;
+    font-size: 100px;
 }
 
-#design {
-    background-color: blanchedalmond;
-    margin: 10px;
-    border-radius: 15px;
-    padding: 50px;
+#my-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+}
+
+#text {
+    text-align: center;
+}
+
+#footer-icon {
+    color: white;
+    font-size: 35px;
+    padding: 8px;
 }
 
 footer {
     text-align: center;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(17, 16, 16);
-    padding-top: 50px;
+    padding-top: 150px;
     padding-bottom: 5px;
 }
